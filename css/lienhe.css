@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    text-align: center;
+    background-size: 100% 100%;
+    background-color: palegreen;
+    padding: 20px;
+    background-image: url(https://64.media.tumblr.com/c9cd55c25df3ba471d0e30ae6e833120/1744eb7c910a6d3e-92/s500x750/918c84354e2bec214d8b3999410f78e4dd2a808d.gif);
+}
+nav a{
+    padding: 5px 20px;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 0;
+    font-weight: 700;
+    color: white;
+    text-shadow: 5px -5px 5px orange ;
+}
+nav a:hover{
+    color: red;
+    font-size: 20px;
+}
+form{
+    padding: 10px;
+}
+form fieldset{
+    padding: 10px;
+}
+
+
+.thung{
+    display: flex;
+}
+.thung .the{
+    flex: 50%;
+    background-color: rgb(0, 204, 255);
+    margin: 5px;
+}
+.thung .the form fieldset legend{
+    font-weight: 700;
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+}
+.the .thung_1 .item_tt{
+    padding-left: 30px;
+}
+.the .thung_1 .item_tt .title_kt{
+    font-size: 20px;
+    font-weight: 400;
+    text-shadow: 5px -5px 5px red;
+    color: red;
+}
+.icon{
+    text-align: center;
+    font-size: 35px;
+}
+.icon a:hover{
+    color: red;
+    font-size: 30px;
+}

@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    text-align: center;
+	text-shadow: 5px -5px 5px orange ;
+    background-color: palegreen;
+    background-size: 100% 100%;
+    padding:  20px;
+    background-image: url(https://64.media.tumblr.com/c9cd55c25df3ba471d0e30ae6e833120/1744eb7c910a6d3e-92/s500x750/918c84354e2bec214d8b3999410f78e4dd2a808d.gif);
+}
+nav a{
+    padding: 5px 20px;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 0;
+    font-weight: 700;
+    color: white;
+	text-shadow: 5px -5px 5px orange ;
+}
+nav a:hover{
+    color: red;
+    font-size: 20px;
+}
+
+body{
+    background: #333;
+}
+.container_background{
+    position: relative;
+    top: 10px;
+    z-index: 0;
+    width: 700px;
+    min-height: 700px;
+    margin: auto;
+    background: linear-gradient(146deg,#34edbc,#23ebb6);
+    border-radius: 5%;
+}
+.container_background:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(146deg,#34edbc,#23ebb6);
+    border-radius: 5%;
+
+}
+.container_background:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(146deg,#34edbc,#23ebb6);
+    filter: blur(50px);
+    border-radius: 5%;
+
+}
+.container {
+    position: relative;
+    z-index: 1;
+    margin: auto;
+    padding-top: 0.1px;
+    padding-bottom: 0.01px;
+    position: absolute;
+    left: 25px;
+    top: 30px;
+    width: 650px;
+    min-height: 300px;
+    background: #39187a;
+    border-radius: 20px;
+}
+.container h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #0dffeb;
+    font-weight: 900;
+    font-size: 33px;
+}
+.container form{
+    position: relative;
+    padding-top: 7px;
+    background: #333;
+}
+
+.container form p label{
+    position: relative;
+    z-index: 1;
+    font-size: 23px;
+    font-weight: 900;
+    margin-left: 10px;
+    color: white;
+    text-shadow: 7px -6px 7px #f51475;
+}
+.container form p .txt{
+    position: absolute;
+    left: 170px;
+    width: 400px;
+    padding: 5px;
+    color: black;
+}
+.container form p .sex{
+    margin-left: 80px;
+}
+.container form p span{
+    color: white;
+    font-size: 19px;
+}
+.container form p .img{
+    margin-left: 60px;
+}
+.container form p .hobbies{
+    margin-left: 65px;
+}.container form p .hobbies1{
+    margin-left: 168px;
+}.container form p .note{
+    margin-left: 168px;
+    width: 400px;
+    margin-bottom: 10px;
+}.container form .button{
+    position: relative;
+    width: 100px;
+    background: palevioletred;
+    left: 35%;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}

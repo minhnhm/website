@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container .bottom_card{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .bottom_card .card{
+    flex: 72%;
+    margin: 10px 0px;
+}
+
+.container .bottom_card  .card .card_1 img{
+    width: 400px;
+    height: 400px;
+}
+
+script{
+    padding: 7px;
+    margin: 5px;
+}
+
+.bottom_card .video1-container{
+margin: 10px;
+}
+.bottom_card .video2-container{
+margin: 10px;
+    }
+
+.container{
+    background-size: 100% 100%;
+    background-image: url(https://c.tenor.com/eTR1kni7ycAAAAAd/nebulosa-loowop-nebula.gif);
+}
+.container header{
+    width: 100%;
+    height: 500px;
+    background-image: url(https://images.pexels.com/photos/326279/pexels-photo-326279.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: 100% 100%;
+    position: relative;
+}
+.container header p{
+    position: absolute;
+    top: 45%;
+    left: 400px;
+    color: blue;
+    font-size: 70px;
+}
+.container header .log_in{
+    position: absolute;
+    top: 5px;
+    right: 7px;
+    font-size: 25px;
+}
+.container header .log_in a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+    text-shadow: 5px -5px 5px rgb(0, 255, 247);
+}
+.container header .log_in a:hover{
+    color: #2a2afa;
+    font-size: 23px;
+}
+.container header p span{   
+    animation: hoangminh 2s infinite;
+    animation-delay: calc(0.2s * var(--i));
+}
+
+
+
+@keyframes hoangminh
+{
+    0%
+    {
+        color: red;
+        filter: blur(2px) hue-rotate(0deg);
+        text-shadow: 0 0 10px #2ae5fa,
+        0 0 20px #2ae5fa,
+        0 0 40px #2ae5fa,
+        0 0 80px #2ae5fa,
+        0 0 120px #2ae5fa,
+        0 0 200px #2ae5fa,
+        0 0 300px #2ae5fa,
+        0 0 400px #2ae5fa;
+        margin-bottom: 400px;
+    }
+        30%,70%
+    {
+        color: red;
+        filter: blur(2px) hue-rotate(360deg);
+        text-shadow: 0 0 10px #2ae5fa,
+        0 0 20px #2ae5fa,
+        0 0 40px #2ae5fa,
+        0 0 80px #2ae5fa,
+        0 0 120px #2ae5fa,
+        0 0 200px #2ae5fa;
+        margin-bottom: 600px;
+    }
+        100%
+    {
+        color: transparent;
+        filter: blur(2px) hue-rotate(0deg);
+        margin-bottom: 800px;
+    }
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 3px;
+    font-size: 20px;
+    font-weight: 800;
+    transition: 0.5s;
+    display: block;
+    padding: 10px 25px;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 700;
+    float: left;
+    color: white;
+    text-shadow: 5px -5px 5px orange ;
+}
+nav ul li a:hover{
+    color: red;
+    font-size: 20px;
+}
+nav .contact{
+    position: absolute;
+    top: 67%;
+    right: 100px;
+}
+nav .contact a{
+    text-decoration: none;
+    padding: 6px;
+    font-size: 20px;
+    font-weight: 800;
+    transition: 0.5s;
+    display: block;
+    padding: 5px 10px;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 700;
+    float: left;
+    color: white;
+    text-shadow: 5px -5px 5px orange ;
+}
+nav .contact a:hover{
+    color: red;
+    font-size: 20px;
+}
+.container article{
+    padding: 0;
+}
+.container article img{
+    width: 100%;
+    height: 500px;
+    background-size: 100% 100%;
+}
+.container aside{
+    padding: 5px;
+}
+.container aside img{
+    width: 25%;
+    height: 350px;
+}
+.container footer{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    clear: both;
+}
+.container footer p{
+    text-shadow: 5px -5px 5px blue;
+    text-align: center;
+    padding: 40px;
+    font-size: 20px;
+    background: linear-gradient(146deg , yellow, red);
+}
+
+/* menu con san pham */
+.main_menu>ul>li {
+    position: relative;
+}
+.main_menu ul ul{
+    position: absolute;
+    display: none;
+}
+.main_menu ul ul a{
+    display: block;
+}
+.main_menu>ul>li:hover>ul{
+    display: block;
+}
+

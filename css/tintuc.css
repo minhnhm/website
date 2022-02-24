@@ -1,0 +1,343 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    text-align: center;
+	text-shadow: 5px -5px 5px orange ;
+    background-color: palegreen;
+	background-size: 100% 100%;
+    padding: 20px;
+    background-image: url(https://64.media.tumblr.com/c9cd55c25df3ba471d0e30ae6e833120/1744eb7c910a6d3e-92/s500x750/918c84354e2bec214d8b3999410f78e4dd2a808d.gif);
+}
+nav a{
+    padding: 5px 20px;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 0;
+    font-weight: 700;
+    color: white;
+	text-shadow: 5px -5px 5px orange ;
+}
+nav a:hover{
+    color: red;
+    font-size: 20px;
+}
+h1{
+	text-align: center;
+	font-size: 20px;
+	padding: 20px;
+	font-weight: 900;
+	text-shadow: 5px -5px 5px red;
+	background: linear-gradient(159deg , yellow , red);
+	width: 100%;
+	height: 100%;
+	color: #0ebff0;
+	background-size: 100% 100%;
+}
+.float_left{
+	float: left;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: sans-serif;
+	color: #0000ed;
+	font-weight: bold;
+	padding: 22px;
+	display: block;
+	float: left;
+	text-shadow: 5px -3px 5px #f716d2;
+	
+}
+.float_right{
+		float: right;
+		text-decoration: none;
+		font-size: 20px;
+		font-family: sans-serif;
+		color: #0000ed;
+		font-weight: bold;
+		padding: 22px;
+		display: block;
+		text-shadow: 5px -3px 5px #f716d2;
+	
+}
+#top_mon_an{
+	padding: 20px;
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+}
+#container{
+	display: flex;
+	flex-wrap: wrap;
+}
+.course_item{
+	/*width: 33%;*/
+	/*float: left;*/
+	text-align: center;
+	flex: 33%;
+	padding: 0px 0px 15px 0px;
+
+}
+.course_img{
+	width: 80%;
+	border-radius: 18px;/* bo goc cho hinh*/
+}
+.course_disc{
+	padding: 10px;
+	font-size: 20px;
+	color: #0a594b;
+}
+.course_title{
+	font-size: 30px;
+	color: #4800ff;
+}
+.course_disc:hover{
+	color: #181a19;
+	font-weight: 900;
+}
+#footer1{
+	padding: 50px 0;
+	background-color: #000000;
+	font-weight: bold;
+	color: #f5f0f0;
+	text-align: center;
+	background: -webkit-linear-gradient(150deg,#fc0398 20%,#0ef046 70%);
+	background: linear-gradient(150deg,#fc03ad 20%,#a903fc 30%);
+}
+/* thong tin san pham------------------------------------------------------------ */
+.container2{
+	display: flex;
+	flex-wrap: wrap;
+}
+.course_item2{
+	/*width: 33%;*/
+	/*float: left;*/
+	text-align: center;
+	flex: 20%;
+	padding: 7px 0px 15px 0px;
+	/*margin: 2px;*/
+	/*background-color: red;*/
+
+
+}
+.course_img2{
+	width: 80%;
+	border-radius: 18px;/* bo goc cho hinh*/
+}
+.course_item2:hover{
+	background-color: #bef7c3;
+}
+.course_img2:hover{
+	width: 95%;
+}
+.course_disc2{
+	padding: 15px;
+	font-size: 20px;
+	color: #0a594b;
+	text-align: justify;
+}
+.course_title2{
+	font-size: 30px;
+	color: #4800ff;
+}
+.course_disc2:hover{
+	color: #181a19;
+	font-weight: 900;
+}
+#info_product{
+	padding: 15px;
+	background-color: #f9bfff;
+	font-size: 30px;
+	font-weight: 900;
+	letter-spacing: 5px;
+	text-align: center;
+
+}
+#product{
+	background-color: #d2f7e0;
+
+}
+.price{
+	font-size: 120%;
+	color: red;
+}
+.price1{
+	font-size: 120%;
+	color: red;
+	text-decoration: line-through;
+}
+/*sale*/
+#container_sale{
+	display: flex;
+	flex-wrap: wrap;
+}
+.course_item3{
+	flex: 33%;
+	text-align: center;
+
+}
+.sale_ok{
+	border-radius: 18px;
+	flex: 80%;
+}
+.giam_gia{
+	padding: 20px;
+	margin-bottom: 5px;
+	font-size: 300%;
+	color: #290ef0;
+}
+.giam_gia1{
+	/*padding: 20px;*/
+	text-decoration: none;
+	font-size: 25px;
+}
+#giam_gia1:hover{
+	color: #eb4034;
+}
+#giam_gia_to{
+	padding: 20px;
+	margin-bottom: 5px;
+	font-size: 200%;
+	color: #290ef0;
+	text-align: center;
+	text-shadow: 5px -3px 5px #03f4fc;
+	border-top: 6px double #c603fc;
+}
+#footer2{
+	font-size: 300%;
+	letter-spacing: 5px;
+	font-variant: small-caps;
+	text-align: center;
+	padding: 120px;
+	background-color: #0ef046;
+	/*background-color: #E41980;*/
+	background: -webkit-linear-gradient(160deg,#fc0398 20%,#0ef046 50%);
+	background: linear-gradient(160deg,#c603fc 20%,#03fca1 70%);
+}
+
+/*container3*/
+#container3{
+	display: flex;
+	flex-wrap: wrap;
+}
+.item_SP{
+	flex: 33%;
+	text-align: center;
+	padding-bottom: 20px;
+}
+/*cac loai thuc uong ngon*/
+#drink_new{
+	margin-bottom: 10px;
+	padding: 20px;
+	text-align: center;
+	font-weight: 900;
+	font-size: 25px;
+	text-shadow: 5px -3px 5px #fcba03;
+	border-top: 6px double #03fc20;
+	border: 5px double #03fc18;
+
+}
+/*mon trang mieng*/
+#trangmieng{
+	margin: 15px;
+	padding: 20px;
+	text-align: center;
+	text-shadow: 5px -4px 3px #fc0398;
+	color: #0390fc;
+	border: 5px double #03fc18;
+	font-size: 30px;
+	font-weight: 900;
+	border-top: 6px double #03fc20;
+
+}
+/*tin tuc ok-------------------------------------------------------------*/
+#container_tintuc{
+	background-color: #b5f5b7;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+div.course_tintuc{
+	height: 280px;
+	margin: 15px;
+	border: 5px solid darkgoldenrod;
+	border-radius: 5px;
+	flex: 33%;
+	background-color: #cbf0f7;
+	border-top: 6px double #03fc20;
+}
+.img_tintuc{
+	width: 250px; height: 150px;
+	margin: 10px;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+.img_tintuc:hover{
+	background-color: #fcf403;
+}
+.title_tintuc{
+	color: #f77300;
+	font-size: 22px;
+	margin-top: 0px;
+	text-transform: uppercase;/*viet hoa*/
+	padding: 10px;
+}
+.decs_tintuc{
+	color: #f70098;
+	font-size: 25px;
+	text-align: justify;
+	letter-spacing: 2px;
+	line-height: 150%;
+	max-width: 90%;
+}
+/*giao dien tren diem thoai*/
+@media(max-width: 750px){
+	.course_item{
+		flex: 50%;
+	}
+	.course_item3{
+		flex: 50%;
+	}
+	.course_item2{
+		flex: 50%;
+	}
+	.price1{
+		text-decoration: line-through;
+	}
+	/*traang tin tuc*/
+	div.course_tintuc{
+		flex: 50%;
+	}
+	.item_SP{
+	flex: 20%;
+	text-align: center;
+	}
+}
+@media(max-width: 450px){
+	.course_item{
+		flex: 50%;
+	}
+	.course_item3{
+		flex: 20%;
+	}
+
+	.sale_ok{
+	border-radius: 18px;
+	/*flex: 30%;*/
+	width: 150px;
+	}
+	.course_item2{
+		flex: 100%;
+	}
+	.price1{
+		text-decoration: line-through;
+	}
+
+	#index{
+		padding: 80px 80px 80px 40px;
+	}
+	.item_SP{
+	flex: 100%;
+	text-align: center}
+}

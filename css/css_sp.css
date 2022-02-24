@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: bisque;
+}
+nav{
+   
+    text-align: center;
+    background-color: palegreen;
+    background-size: 100% 100%;
+    padding: 20px;
+    background-image: url(https://64.media.tumblr.com/c9cd55c25df3ba471d0e30ae6e833120/1744eb7c910a6d3e-92/s500x750/918c84354e2bec214d8b3999410f78e4dd2a808d.gif);
+}
+nav a{
+    text-shadow: 5px -5px 5px orange ;
+    padding: 5px 20px;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 0;
+    font-weight: 700;
+    color: white;
+}
+nav a:hover{
+    color: red;
+    font-size: 20px;
+}
+
+.them{
+    background: linear-gradient(146deg , yellow, red);
+    text-align: center;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 900;
+    text-shadow: 5px -3px 5px red;
+}
+
+
+.nuoc{
+    background: linear-gradient(146deg , yellow , red);
+    text-align: center;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 900;
+    text-shadow: 5px -3px 5px red;
+}
+
+.thung{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.the{
+    flex: 25%;
+    margin: 10px 0px;
+}
+.the .anh_sp{
+    text-align: center;
+}
+.the .anh_sp img{
+    width: 300px;
+    height: 200px;
+    padding: 3px;
+    /* margin: 10px; */
+    border: 3px solid red;
+    border-radius: 10px;
+    background: palevioletred;
+}
+.the img:hover{
+    width: 310px;
+    height: 210px;
+}
+.the .ten_sp{
+    text-align: center;
+    font-weight: 900;
+    color: black;
+    text-shadow: 5px -3px 5px orange;
+}
+.the .gia_sp{
+    color: red;
+    text-align: center;
+}
+.the .mota_sp{
+    color: 	rebeccapurple;
+    text-align: justify;
+    padding: 0 15px;
+
+}

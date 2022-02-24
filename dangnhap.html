@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>bai hai nha</title>
+    <link rel="stylesheet" href="css/dangnhap.css"/>
+	<style>
+
+	</style>
+</head>
+<body>
+
+    <nav>	
+		<a href="index.html">HOME</a>
+        <a href="SanPham.html">PRODUCT</a>
+        <a href="gioithieu.html">INTRODUCE</a>
+        <a href="lienhe.html">CONTACT</a>
+        <a href="tintuc.html">NEWS</a>
+		<a href="mobile.html">MOBILE</a>
+		<a href="dangnhap.html">LOG IN</a>
+    </nav>
+
+	<div class="container_background">
+		<div class="container">
+			<h2>Đăng kí thành viên</h2>
+			<form method="post" action="check.php"><br/><br/>
+				<p><label for="name">Tên đăng nhập:</label>
+				<input class="txt" type="text" name="" id="name" placeholder="Nhập trên 10 kí tự "></p><br/>
+				<p><label for="pass"> Mật khẩu:</label>
+				<input class="txt" type="pass" name="" id="pass" placeholder="Nhập trên 10 kí tự"></p><br/>
+				<p>	
+					<label >Giới tính:</label>
+					<input class="sex" type="radio" name="sex"><span>Nam</span>
+					<input class="sex" type="radio" name="sex"><span>Nữ</span>
+				</p><br/>
+				<p>
+					<label>Hình ảnh:</label>
+					<input class="img" type="file" name="image" placeholder="choose image">
+				</p><br/>
+				<p>
+					<label>Quốc tịch:</label>
+					<select class="img">
+						<option value="0">Chọn quốc tịch</option>
+						<option value="1">Việt Nam </option>
+						<option value="2">Tàu Khựa </option>
+						<option value="3">Thái Lan</option>
+						<option value="4">Japan</option>
+						<option value="5">Nhật Bổn</option>
+						<option value="6">Mĩ Đen </option>
+					</select>
+				</p><br/>
+				<p>
+					<label>Sở thích:</label>
+						<input class="hobbies" type="checkbox" name="hobbies"> <span>Thể thao </span><br>
+						<input class="hobbies1" type="checkbox" name="hobbies"> <span>Ăn uống </span><br>
+						<input class="hobbies1" type="checkbox" name="hobbies"> <span>Du lịch </span><br>
+						<input class="hobbies1" type="checkbox" name="hobbies"> <span>Vũ trụ </span><br>
+				</p><br/>
+				<p>
+					<label>Ghi chú:</label><br>
+					<textarea class="note" rows="5" placeholder=" Góp ý"></textarea>
+				</p>
+				<input class="button" type="submit" value="Đăng nhập">
+				<input class="button" type="reset" value="Reset">
+ 			</form>
+		</div>
+	</div>
+</body>
+</html>
